@@ -16,3 +16,8 @@
 
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60059)
 - [코드](3.py)
+
+#### 4. 가사 검색
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/60060)
+- [코드](4.py)
