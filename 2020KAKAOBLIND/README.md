@@ -12,7 +12,7 @@
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60058)
 - [코드](2.py)
 
-#### 3. 
+#### 3. 자물쇠와 열쇠
 
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60059)
 - [코드](3.py)
