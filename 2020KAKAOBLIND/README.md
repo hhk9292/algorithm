@@ -21,3 +21,9 @@
 
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60060)
 - [코드](4.py)
+
+#### 5. 기둥과 보 설치
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/60061)
+- [코드](5.py)
+
