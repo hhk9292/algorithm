@@ -2,7 +2,7 @@
 # 6. 외벽 점검
 # https://programmers.co.kr/learn/courses/30/lessons/60062
 
-def check(friends, wall, dist):
+def check(friends, wall):
     """
     친구와 외벽 상태를 입력받아 점검 할 수 있는지 반환
 
@@ -26,7 +26,7 @@ def check(friends, wall, dist):
     i = 0  # 점검 하려는 외벽의 인덱스
 
     for friend in friends:
-        f = wall[i] + dist[friend]  # 점검할 수 있는 최장 거리 외벽
+        f = wall[i] + friend  # 점검할 수 있는 최장 거리 외벽
         if f >= wall[-1]:  # 모든 외벽을 점검하면
             return True
 
@@ -45,14 +45,14 @@ def solution(n, weak, dist):
     # 점검하러 가는 친구들의 수
     for friends_number in range(1, len(dist)+1):
         # 그 수를 가지고 순서 정하기
-        friends_permu = permutations(range(len(dist)), friends_number)
+        friends_permu = permutations(dist, friends_number)
         for friends in friends_permu:
             # 원형 외벽이기 때문에 배열을 돌려가며 해야함
             for i in range(len(weak)):
                 left = weak[:i]
                 right = weak[i:]
                 wall = right + [elem + n for elem in left]
-                if check(friends, wall, dist):
+                if check(friends, wall):
                     answer = friends_number
                     flag = False
                     break
