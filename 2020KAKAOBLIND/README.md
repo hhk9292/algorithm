@@ -32,4 +32,7 @@
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60062)
 - [코드](6.py)
 
- 
+ #### 7. 블록 이동하기
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/60063)
+- [코드](7.py)
