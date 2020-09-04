@@ -27,3 +27,9 @@
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/60061)
 - [코드](5.py)
 
+#### 6. 외벽 점검
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/60062)
+- [코드](6.py)
+
+ 
