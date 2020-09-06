@@ -53,24 +53,27 @@ def reverse_brackets(p):
     return result
 
 def solution(p):
+    # 입력이 빈 문자열이거나 올바른 문자열일 경우 그대로 반환
     if (p == '') or (is_right(p)):
         return p
     else:
-        _open_cnt = 0   # "("의 개수
-        _close_cnt = 0  # "("의 개수
+        open_cnt = 0   # "("의 개수
+        close_cnt = 0  # "("의 개수
         for i in range(len(p)):
             if p[i] == "(":
-                _open_cnt += 1
+                open_cnt += 1
             else:
-                _close_cnt += 1
+                close_cnt += 1
             # 최초의 균형잡힌 괄호 문자열을 찾아서 u에 저장하고 뒷부분 v에 저장
-            if _open_cnt == _close_cnt:
+            if open_cnt == close_cnt:
                 u = p[: i+1]
-                v = p[i+1: ]
+                v = p[i+1:]
                 break
-
+        
+        # u가 올바른 문자열일 경우
         if is_right(u):
             return u + solution(v)
+        # 그렇지 않은 경우
         else:
             return "(" + solution(v) + ")" + reverse_brackets(u[1:-1])
 
