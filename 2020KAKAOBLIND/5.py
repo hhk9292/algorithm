@@ -24,9 +24,8 @@ def check(elem, wall):
 
 def solution(n, build_frame):
     wall = set()  # 건축물이 들어갈 set
-    for build in build_frame:
+    for build in build_frame:  # build = [x좌표, y좌표, 기둥/보, 설치/삭제]
         elem = (build[0], build[1], build[2])
-        # build = [x좌표, y좌표, 기둥/보, 설치/삭제]
         if build[3] == 1:  # 설치
             # 여기에 체크 함수
             if check(elem, wall):
