@@ -93,23 +93,25 @@ def solution(board):
                     for l in range(-1, 2):
                         land[x + k][y + l] = 1
 
-    length = len(land)
-    final = {(length - 2, length - 3), (length - 3, length - 2)}
-    visit = set()
-    visit.add((1, 2))
 
+    length = len(land)
+    # 도착점 두 군데: 가로 방향, 세로 방향
+    final = {(length - 2, length - 3), (length - 3, length - 2)}
+
+    visit = set()  # 방문 여부를 검사하는 집합
+    visit.add((1, 2))  # 출발점 방문 체크
+
+    # BFS 탐색
     queue = []
-    queue.append((1, 2, 0))
+    queue.append((1, 2, 0))  # 위치와 현재까지 걸린 시간 저장
     while queue:
         cx, cy, cnt = queue.pop(0)
-        land[cx][cy] = cnt
-        land[cx][cy] = 0
-        directs = []
+        directs = []  # 움직일 수 있는 방향을 담는 배열
         directs.extend(straight_check((cx, cy), land))
         directs.extend(rotate_check((cx, cy), land))
-
         for direct in directs:
             nx, ny = cx + move[direct][0], cy + move[direct][1]
+            # 목적지에 도착할 수 있으면 while 문을 빠져나감
             if (nx, ny) in final:
                 queue = []
                 break

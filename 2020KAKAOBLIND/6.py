@@ -36,6 +36,7 @@ def check(friends, wall):
                 if wall[j] > f:
                     i = j
                     break
+    return False
 
 
 def solution(n, weak, dist):
