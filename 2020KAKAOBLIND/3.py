@@ -36,6 +36,7 @@ def check(i, j, key, n, board, m):
     :param j:
     시작점 j 좌표
 
+
     :param key:
     key 배열
 
@@ -68,34 +69,6 @@ def check(i, j, key, n, board, m):
 
     return True
 
-def clear(lock, n, board, m):
-    """
-    lock 부분을 초기화 시켜주는 함수
-
-
-    :param lock:
-    lock 배열
-
-
-    :param n:
-    key 의 크기
-
-
-    :param board:
-    baord 배열
-
-
-    :param m:
-    lock 의 크기
-
-    :return:
-    리턴 값은 없음
-    """
-    for i in range(m):
-        for j in range(m):
-            board[n+i-1][n+j-1] = lock[i][j]
-
-
 def solution(key, lock):
     n = len(key)  # key 의 크기
     m = len(lock)  # lock 의 크기
@@ -116,7 +89,10 @@ def solution(key, lock):
                     return True
                 # 실패 했을 때
                 else:
-                    clear(lock, n, board, m)
+                    # lock 부분을 초기화 시켜준다.
+                    for k in range(m):
+                        for l in range(m):
+                            board[n+k-1][n+l-1] = lock[k][l]
                     key = rotate_key(key, n)
 
     # 성공하지 못하고 여기로 나왔을 때
