@@ -21,7 +21,6 @@ def straight_check(loc, land):
             # + 방향 직진 가능
             result.append(2)
 
-
         if x >= 3 and land[x - 3][y] == 0:
             # - 방향 직진 가능
             result.append(3)

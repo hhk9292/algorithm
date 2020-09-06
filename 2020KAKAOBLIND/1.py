@@ -8,9 +8,9 @@ def solution(s):
     # 문자열 체크는 1 ~ n//2 까지만 하면 된다.
     # 문자열의 길이가 8일 때 5글자 이상의 문자로는 압축을 할 수 없기 때문
     for l in range(1, n//2 + 1):
-        check_list = []     # 문자열이 저장 될 곳
-        check_list.append(s[0: l])      # 최초 문자열 저장
-        cnt = 1     # 개수 체크
+        check_list = []  # 문자열이 저장 될 곳
+        check_list.append(s[0: l])  # 최초 문자열 저장
+        cnt = 1  # 개수 체크
         for k in range(l, n, l):
             substr = s[k: k+l]
             # 가장 마지막에 추가된 문자열과 같다면 개수 1 추가
@@ -18,7 +18,7 @@ def solution(s):
                 cnt += 1
             # 다르다면 마지막에 저장되어있는 문자에 숫자를 추가
             else:
-                # cnt가 1이면 무시
+                # cnt 가 1이면 무시
                 if cnt == 1:
                     pass
                 else:
@@ -33,12 +33,11 @@ def solution(s):
             pass
         else:
             check_list.append(str(cnt) + check_list.pop())
-
+        
+        # 길이가 가장 짧은 문자열의 길이를 저장
         length = len(''.join(check_list))
         if length < answer:
             answer = length
-
-
 
     return answer
 
