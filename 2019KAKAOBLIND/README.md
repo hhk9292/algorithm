@@ -21,3 +21,9 @@
 
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/42892)
 - [코드](5.py)
+
+#### 6. 매칭 점수
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/42893)
+- [코드](6.py)
+
