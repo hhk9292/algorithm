@@ -16,3 +16,8 @@
 
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/42890)
 - [코드](3.py)
+
+#### 5. 길 찾기 게임
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/42892)
+- [코드](5.py)
