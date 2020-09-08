@@ -27,3 +27,7 @@
 - [문제](https://programmers.co.kr/learn/courses/30/lessons/42893)
 - [코드](6.py)
 
+#### 7. 블록 게임
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/42894)
+- [코드](7.py)
