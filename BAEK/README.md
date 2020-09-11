@@ -6,4 +6,5 @@
 
   - [풀이](baek_14500.py)
 
-  
+- [1197 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+  - [풀이](baek_1197.py)
