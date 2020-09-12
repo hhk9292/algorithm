@@ -2,6 +2,9 @@
 # 최소 스패닝 트리
 # https://www.acmicpc.net/problem/1197
 
+import sys
+input = sys.stdin.readline
+
 # find 함수
 def find(x):
     if p[x] == x:

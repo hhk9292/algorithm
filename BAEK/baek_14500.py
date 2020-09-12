@@ -2,6 +2,9 @@
 # 테트로미노
 # https://www.acmicpc.net/problem/14500
 
+import sys
+input = sys.stdin.readline
+
 N, M = map(int, input().split())  # 세로, 가로
 tet = [list(map(int, input().split())) for _ in range(N)]
 possible_6 = [{0, 1}, {0, 2}, {0, 5}, {1, 2}, {2, 3}, {3, 4}, {3, 5}, {4, 5}]

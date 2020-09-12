@@ -2,7 +2,10 @@
 # 단어 공부
 # https://www.acmicpc.net/problem/1157
 
-word = input()
+import sys
+input = sys.stdin.readline
+
+word = input().rstrip()
 counting = [0] * 26  # 알파벳은 26개
 for letter in word:
     if letter >= 'a':
