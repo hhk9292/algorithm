@@ -2,7 +2,7 @@
 
 ### 백준 문제 Tip
 
-- input() 보다는 sys.stdin.readline()을 쓰자
+- input() 보다는 sys.stdin.readline()을 쓰는게 빠르다
   - [입력 속도 비교](https://www.acmicpc.net/blog/view/56)
 
 
