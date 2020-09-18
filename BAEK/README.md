@@ -26,3 +26,6 @@
 - [10773 제로](https://www.acmicpc.net/problem/10773)
   - [풀이](baek_10773.py)
 
+- [1034 램프](https://www.acmicpc.net/problem/1034)
+  - [풀이](baek_1034.py)
+
