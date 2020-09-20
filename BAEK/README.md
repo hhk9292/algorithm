@@ -29,4 +29,6 @@
   - [풀이](baek_1034.py)
 - [11660 구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
   - [풀이](baek_11660.py)
+- [1149 RGB거리](https://www.acmicpc.net/problem/1149)
+  - [풀이](baek_1149.py)
 
