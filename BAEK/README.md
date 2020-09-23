@@ -33,4 +33,6 @@
   - [풀이](baek_11660.py)
 - [1149 RGB거리](https://www.acmicpc.net/problem/1149)
   - [풀이](baek_1149.py)
+- [15386 퇴사 2](https://www.acmicpc.net/problem/15486)
+  - [풀이](baek_15486.py)
 
