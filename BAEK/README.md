@@ -37,4 +37,6 @@
   - [풀이](baek_15486.py)
 - [1463 1로 만들기](https://www.acmicpc.net/problem/1463)
   - [풀이](baek_1463.py)
+- [11726 2*n 타일링](https://www.acmicpc.net/problem/11726)
+  - [풀이](baek_11726.py)
 
