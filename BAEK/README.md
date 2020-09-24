@@ -35,4 +35,6 @@
   - [풀이](baek_1149.py)
 - [15386 퇴사 2](https://www.acmicpc.net/problem/15486)
   - [풀이](baek_15486.py)
+- [1463 1로 만들기](https://www.acmicpc.net/problem/1463)
+  - [풀이](baek_1463.py)
 
