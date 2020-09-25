@@ -39,4 +39,6 @@
   - [풀이](baek_1463.py)
 - [11726 2*n 타일링](https://www.acmicpc.net/problem/11726)
   - [풀이](baek_11726.py)
+- [11048 이동하기](https://www.acmicpc.net/problem/11048)
+  - [풀이](baek_11048.py)
 
