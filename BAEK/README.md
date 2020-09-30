@@ -43,4 +43,5 @@
   - [풀이](baek_11048.py)
 - [13023 ABCDE](https://www.acmicpc.net/problem/13023)
   - [풀이](baek_13023.py)
-
+- [10828 스택](https://www.acmicpc.net/problem/10828)
+  - [풀이](baek_10828.py)
