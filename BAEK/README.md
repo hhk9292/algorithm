@@ -45,3 +45,6 @@
   - [풀이](baek_13023.py)
 - [10828 스택](https://www.acmicpc.net/problem/10828)
   - [풀이](baek_10828.py)
+- [1991 트리 순회](https://www.acmicpc.net/problem/1991)
+  - [풀이](baek_1991.py)
+
