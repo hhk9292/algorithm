@@ -47,4 +47,6 @@
   - [풀이](baek_10828.py)
 - [1991 트리 순회](https://www.acmicpc.net/problem/1991)
   - [풀이](baek_1991.py)
+- [2193 이친수](https://www.acmicpc.net/problem/2193)
+  - [풀이](baek_2193.py)
 
