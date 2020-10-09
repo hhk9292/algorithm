@@ -38,4 +38,21 @@
 
 - [풀이](7.py)
 
-  
+
+
+### 2018 KAKAO BLIND RECRUITMENT [3차]
+
+#### 방금그곡
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/17683)
+- [풀이](8.py)
+
+#### 압축
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/17684)
+- [풀이](9.py)
+
+#### 자동완성
+
+- [문제](https://programmers.co.kr/learn/courses/30/lessons/17685)
+- [풀이](10.py)
