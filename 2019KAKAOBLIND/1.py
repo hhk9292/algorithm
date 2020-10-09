@@ -1,4 +1,4 @@
-# 2029 KAKAO BLIND
+# 2019 KAKAO BLIND
 # 1. 오픈채팅방
 # https://programmers.co.kr/learn/courses/30/lessons/42888
 

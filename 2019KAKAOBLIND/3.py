@@ -1,4 +1,4 @@
-# 2029 KAKAO BLIND
+# 2019 KAKAO BLIND
 # 3. 후보키
 # https://programmers.co.kr/learn/courses/30/lessons/42890
 

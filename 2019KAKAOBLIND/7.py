@@ -1,4 +1,4 @@
-# 2029 KAKAO BLIND
+# 2019 KAKAO BLIND
 # 7. 블록게임
 # https://programmers.co.kr/learn/courses/30/lessons/42894
 

@@ -1,4 +1,4 @@
-# 2029 KAKAO BLIND
+# 2019 KAKAO BLIND
 # 6. 매칭 점수
 # https://programmers.co.kr/learn/courses/30/lessons/42893
 
