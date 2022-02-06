@@ -18,6 +18,9 @@
 
 
 ### [백준](https://www.acmicpc.net/)
+> 문제마다 난이도가 생겨서 난이도 별로 정리
+
+- [Gold](./Gold)
 
 - [1197 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
   - [풀이](baek_1197.py)
