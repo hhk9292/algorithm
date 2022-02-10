@@ -2,8 +2,6 @@
 # RGB 거리 2
 # https://www.acmicpc.net/problem/17404
 
-from cmath import cos
-from operator import ge
 import sys
 rl = sys.stdin.readline
 
